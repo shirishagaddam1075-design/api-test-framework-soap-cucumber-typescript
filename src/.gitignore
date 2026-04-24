@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Playwright reports
+playwright-report/
+test-results/
+blob-report/
+
+# Cucumber reports
+reports/
+
+# Logs
+logs/
+*.log
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# TypeScript build
+dist/
+build/
+
+# VS Code settings
+.vscode/
+
+# Coverage
+coverage/
+
+# Temporary files
+*.tmp
+
+# npm debug
+npm-debug.log*

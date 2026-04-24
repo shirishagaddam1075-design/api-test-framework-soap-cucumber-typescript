@@ -1,0 +1,32 @@
+{
+  "name": "api-test-framework-soap-cucumber-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js --require-module ts-node/register src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shirishagaddam1075-design/api-test-framework-soap-cucumber-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/shirishagaddam1075-design/api-test-framework-soap-cucumber-typescript/issues"
+  },
+  "homepage": "https://github.com/shirishagaddam1075-design/api-test-framework-soap-cucumber-typescript#readme",
+  "dependencies": {
+    "@cucumber/cucumber": "^12.8.1",
+    "axios": "^1.15.2",
+    "dotenv": "^17.4.2",
+    "xml2js": "^0.6.2"
+  },
+  "devDependencies": {
+    "@types/node": "^25.6.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^6.0.3"
+  }
+}
